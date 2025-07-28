@@ -34,7 +34,7 @@ react-app/
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/<your-username>/react-counter-demo.git
+   git clone https://github.com/tthegood/React-Counter.git
    cd react-app
    ```
 
