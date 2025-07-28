@@ -1,0 +1,41 @@
+/* src/App.css */
+
+:root {
+  --bg: #f5f7fa;
+  --card: #ffffff;
+  --text: #333333;
+  --button: #007acc;
+  --button-hover: #005fa3;
+  --button-disabled: #aaccee;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --font: 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  background: var(--card);
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px var(--shadow);
+  text-align: center;
+  width: 280px;
+}
+
+.App h1 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
